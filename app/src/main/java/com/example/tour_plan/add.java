@@ -97,8 +97,8 @@ public class add extends AppCompatActivity implements View.OnClickListener {
         Add_data data = new Add_data(from,destination,phonenum,date,name);
 
         FirebaseDatabase.getInstance().getReference("DATA")
-                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                .child(count)
+                .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).push()
+                //.child(count)
                 .setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
