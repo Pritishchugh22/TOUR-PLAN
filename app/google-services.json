@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457136362455",
+    "project_id": "tourplan-41f07",
+    "storage_bucket": "tourplan-41f07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457136362455:android:adb3fbca95d2bff8c27192",
+        "android_client_info": {
+          "package_name": "com.example.tour_plan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457136362455-bqibbq0elq422nfggarlq0hg4fe8rt9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7zGVu900r3oLq3nWLIo4c8do_tpa-UAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457136362455-bqibbq0elq422nfggarlq0hg4fe8rt9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
